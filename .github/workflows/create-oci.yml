@@ -37,3 +37,5 @@ jobs:
           OCI_SSH_PUBLIC_KEY: ${{ secrets.OCI_SSH_PUBLIC_KEY }}
           OCI_SHAPE: ${{ secrets.OCI_SHAPE }}
         run: php index.php
+
+        
